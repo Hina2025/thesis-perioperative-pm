@@ -10,8 +10,7 @@ The plaintext CSV is intentionally excluded via `.gitignore` and must never be c
 
 ## Decrypting the dataset
 
-You will receive the decryption passphrase separately from Hina (not via GitHub, email,
-or any channel connected to this repo).
+You will receive the decryption passphrase separately.
 
 From the repo root, with OpenSSL installed (bundled with Git for Windows / macOS / Linux):
 
