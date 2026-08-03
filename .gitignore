@@ -1,0 +1,26 @@
+# Sensitive data - the plaintext patient dataset must NEVER be committed.
+# Only the encrypted .csv.enc version is tracked (see data/README.md).
+data/Perioperative_Dataset_csv.csv
+data/*.csv
+!data/README.md
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Never commit secrets
+*.env
+passphrase*.txt
+
+# Local tooling config (not part of the research handover)
+.claude/
