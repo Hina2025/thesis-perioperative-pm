@@ -1,9 +1,6 @@
 # Perioperative Process Mining Thesis
 
-<!-- TODO: replace with your actual thesis title and a 2-3 sentence abstract. -->
-Process mining and analysis of perioperative (surgical) case data — discovering process
-flows (heuristics miner / DFG), Bayesian process maps, and surgery duration patterns by
-location, surgery type, and surgeon.
+Surgical Process Discovery for Sscheduling Optimization: Structural and Temporal Analysis of Perioperative Workflow
 
 This repo is the research handover package: code, outputs, and documentation needed for
 a research assistant to pick up the work.
@@ -23,8 +20,7 @@ a research assistant to pick up the work.
 ## Getting started
 
 1. Read [`HANDOVER.md`](HANDOVER.md) first — it has project status, known issues, and next steps.
-2. Read [`data/README.md`](data/README.md) — the dataset is encrypted and requires a
-   passphrase shared out-of-band. **Do not skip this.**
+2. Read [`data/README.md`](data/README.md) — the dataset is encrypted and requires a passphrase shared out-of-band. **Do not skip this.**
 3. Set up the environment:
 
    ```bash
